@@ -1,0 +1,3 @@
+include ':bottomnavbar'
+include ':app'
+rootProject.name = "BeetleWare Task"

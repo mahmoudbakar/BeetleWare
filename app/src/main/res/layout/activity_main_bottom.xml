@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/top_bar"/>
+
+        <fragment
+            android:layout_marginTop="@dimen/_45sdp"
+            android:id="@+id/nav_host_fragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:defaultNavHost="true"
+            app:layout_constraintBottom_toTopOf="@id/nav_view"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navGraph="@navigation/mobile_navigation" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.beetleware.bottomnavbar.BottomNavBar
+        android:id="@+id/bottom_nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+
+        app:bn_background_color="@color/white"
+        app:bn_item_color="@drawable/bottom_nav_item_state"
+        app:bn_menu="@menu/bottom_nav_menu"
+
+        app:bn_curve_vertical_offset="0dp"
+        app:bn_curve_margin="6dp"
+        app:bn_curve_rounded_corner_radius="8dp"
+
+        app:bn_fab_size="normal"
+        app:bn_fab_menu_index="1"
+        app:bn_fab_background_color="@color/colorAccent2"
+        app:bn_fab_icon_color="@color/white"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

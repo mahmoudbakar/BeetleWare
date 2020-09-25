@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BeetleWare Task</string>
+    <string name="label_ok">حسناً</string>
+    <string name="message_loading">جاري التحميل..</string>
+    <string name="label_user_name">إسم المستخدم</string>
+    <string name="label_login">تسجيل الدخول</string>
+    <string name="label_password">كلمة السر</string>
+    <string name="label_sold_items">المباع</string>
+    <string name="label_products">المنتجات</string>
+    <string name="label_customer">عميل</string>
+    <string name="label_sales">مبيعات</string>
+    <string name="label_offer">عروض</string>
+    <string name="label_notifications">الإشعارات</string>
+    <string name="label_logout">تسجيل الخروج</string>
+    <string name="label_settings">الإعدادات</string>
+    <string name="message_nothing_to_do">لا يوجد أي شئ هنا..</string>
+    <string name="label_save">حفظ</string>
+    <string name="label_select_your_language">إختر اللغة</string>
+    <string name="label_search_items">البحث</string>
+    <string name="label_add_new_item">إضافة جديد</string>
+    <string name="title_home">الرئيسية</string>
+    <string name="message_invalid_login">برجاء التأكد من صحة إسم المستخدم و كلمة السر و المحاولة مرة أخري.</string>
+    <string name="label_invalid_credentials">بيانات دخول خطأ</string>
+    <string name="label_sorry">نأسف</string>
+    <string name="message_inactive_account">حسابك غير مفعل الرجاء التواصل مع خدمة العملاء بخصوص ذلك.</string>
+    <string name="error_user_name">إسم المستخدم يجب أن يكون من حرفين أو أكثر</string>
+    <string name="error_password">كلمة السر يجب أن تكون من 6 أو أكثر من الحروف و الأرقام أو أحدهما</string>
+    <string name="label_search">البحث</string>
+    <string name="label_profile">الملف الشخصي</string>
+    <string name="label_home">الرئيسية</string>
+</resources>
